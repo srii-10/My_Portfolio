@@ -1,6 +1,7 @@
 # Cybersecurity Portfolio
-Hi! I'm **SRI SEPTINA**,<br>
-an aspiring **Cybersecurity Analyst** interested in security investigation, threat analysis, and understanding security incidents through hands-on practice.
+
+## About
+Hi! I am **SRI SEPTINA**, an aspiring **Cybersecurity Analyst** interested in security investigation, threat analysis, and understanding security incidents through hands-on practice.
 
 This portfolio documents my cybersecurity learning journey through practical projects, investigations, and hands-on labs, including the analysis of suspicious activities, security events, indicators of compromise, and supporting evidence.
 
