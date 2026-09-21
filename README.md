@@ -10,22 +10,22 @@ Each project contains investigation cases and documentation of the analysis proc
 
 ## Skills
 ### 🔐 Technical Skills
-* Security Investigation
-* Threat Analysis
-* Log Analysis
-* IOC Identification
-* Incident Investigation
-* Vulnerability Assessment
-* Windows Event Viewer
-* Linux Log Analysis
-* Security Documentation
+- Security Investigation
+- Threat Analysis
+- Log Analysis
+- IOC Identification
+- Incident Investigation
+- Vulnerability Assessment
+- Windows Event Viewer
+- Linux Log Analysis
+- Security Documentation
 
 ### 🧠 Soft Skills
-* Analytical Thinking
-* Problem Solving
-* Attention to Detail
-* Communication
-* Teamwork
+- Analytical Thinking
+- Problem Solving
+- Attention to Detail
+- Communication
+- Teamwork
 
 ## Projects
 | Pojects / Hands-On Lab                         | Related Projects                                       |
@@ -39,7 +39,5 @@ Each project contains investigation cases and documentation of the analysis proc
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sri-septina-marpaung)
 [![TryHackMe](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://tryhackme.com/p/Moon4rm0r)
 
---------
-
-<a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://tryhackme.com/p/Moon4rm0r"><img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+<a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://tryhackme.com/p/Moon4rm0r"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
