@@ -1,6 +1,6 @@
 # Hello, I'm Sri Septina
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sriisept_)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sri-septina-marpaung/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sri-septina-marpaung)
+[![TryHackMe](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://tryhackme.com/p/Moon4rm0r)
 
 Hi! I am an active student of the Information Systems Study Program with a great interest in the field of cybersecurity, especially in the role of Cybersecurity Analyst. I am currently actively exploring the basic concepts of information security, incident analysis, and system security testing techniques. I am accustomed to working analytically, have a high interest in technical problem solving, and am developing my technical skills through various trainings, simulations, and personal projects. I am enthusiastic to contribute to a work environment that supports development in the field of digital security.
 
