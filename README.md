@@ -1,10 +1,8 @@
 # Cybersecurity Portfolio
-Hi! I'm **Sri Septina**, an aspiring **Cybersecurity Analyst** interested in security investigation, threat analysis, and understanding security incidents through hands-on practice.
+Hi! I'm **Sri Septina**,
+an aspiring **Cybersecurity Analyst** interested in security investigation, threat analysis, and understanding security incidents through hands-on practice.
 
-This repository documents my cybersecurity learning journey through practical projects, investigations, and hands-on labs.
-
-## About This Portfolio
-The projects in this repository document practical cybersecurity investigations, including the analysis of suspicious activities, security events, indicators of compromise, and supporting evidence.
+This portfolio documents my cybersecurity learning journey through practical projects, investigations, and hands-on labs, including the analysis of suspicious activities, security events, indicators of compromise, and supporting evidence.
 
 Each project contains investigation cases and documentation of the analysis process, findings, and recommended actions.
 
@@ -30,10 +28,8 @@ Each project contains investigation cases and documentation of the analysis proc
 ## Projects
 | Pojects / Hands-On Lab                         | Related Projects                                       |
 | -----------------------------------------------|--------------------------------------------------------|
-| [THM Projects](./THM_projects)                 | Project 01 -                                 |
-|                                                | Project 02 -                                 |
-|                                                | Project 03 -                                 |
-|                                                | Project 04 -                                 |
+| [THM Projects](./THM_projects)                 | Project 01<br>Project 02<br>Project 03<br>Project 04   |
+
 
 ## Contact
 <a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
