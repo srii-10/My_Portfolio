@@ -36,8 +36,5 @@ Each project contains investigation cases and documentation of the analysis proc
 |                                                | Project 04 -                                 |
 
 ## Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sri-septina-marpaung)
-[![TryHackMe](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://tryhackme.com/p/Moon4rm0r)
-
-<a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://tryhackme.com/p/Moon4rm0r"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
