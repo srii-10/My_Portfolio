@@ -32,12 +32,12 @@ An analysis of the destination IP using TryDetectThis returned a MALICIOUS statu
 This activity indicates a phishing attempt and a spoofed email domain. No further suspicious activity was identified in the available telemetry.
 
 ### Classification & Escalation
-| Classification | Escalation                      |
-|----------------|---------------------------------|
-| True Positive  | Further investigation required  |
+| Classification      | Escalation                      |
+|---------------------|---------------------------------|
+| True Positive (TP)  | Further investigation required  |
 
 ### Final Assessment
-Based on the analysis, it can be concluded that the user and the internal IP address received a phishing email sent from a spoofed Microsoft domain, and the firewall detected that the user attempted to access the destination URL and IP address, which were flagged as MALICIOUS.
+The alert is classified as a True Positive. Based on the analysis, it can be concluded that the user and the internal IP address received a phishing email sent from a spoofed Microsoft domain, and the firewall detected that the user attempted to access the destination URL and IP address, which were flagged as MALICIOUS.
 
 Since the user accessed a malicious URL and the firewall allowed the connection, escalation is essential to determine whether any payload, malicious content, or further activity reached the endpoint.
 
