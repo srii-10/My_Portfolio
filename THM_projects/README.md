@@ -5,7 +5,7 @@ A collection of hands-on cybersecurity projects completed through TryHackMe, foc
 ### Projects
 
 **[Project 01 - Alert Investigation](./Alert_Investigation/)** <br>
-=> Investigation of security alerts involving users, emails, URLs, domains, and related activities.
+Investigation of security alerts involving users, emails, URLs, domains, and related activities.
 
 | Project 01 Case Names                                  |
 |--------------------------------------------------------|
