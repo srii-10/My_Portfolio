@@ -29,7 +29,7 @@ Each project contains investigation cases and documentation of the analysis proc
 ## Projects
 | Projects / Hands-On Lab                         | Related Projects                                       |
 | ------------------------------------------------|--------------------------------------------------------|
-| **[THM Projects](./THM_projects)**              | Project 01 - Legitimate Employee Onboarding Email<br>Project 02 - URL Shortening Sent by a Suspicious Sender<br>Project 03 - Blacklisted External URL Blocked by Firewall<br>Project 04 - Spoofed Domain Sending Suspicious URL   |
+| **[THM Projects](./THM_projects)**              | Project 01 - Alert Investigation |
 
 ## Contact
 <a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
