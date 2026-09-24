@@ -15,6 +15,7 @@ Investigation of security alerts involving users, emails, URLs, domains, and rel
 | Case 04 - Spoofed Domain Sending Suspicious URL        |
 
 Project 02 - Traffic Analysis Basics
+(lab yg disediakan di "network traffic basics" course room)
 
 1. malicious ps download
 cari log yg berisi download file ps, temukan flagnya
