@@ -18,6 +18,5 @@ Project 02 - Traffic Analysis Basics
 
 1. malicious ps download
 cari log yg berisi download file ps, temukan flagnya
-
 2. dns infiltration
 cari log dns txt yg telah disusupi instruksi c2 berbahaya
