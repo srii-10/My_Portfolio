@@ -15,11 +15,11 @@ Investigation of security alerts involving users, emails, URLs, domains, and rel
 | Case 04 - Spoofed Domain Sending Suspicious URL        |
 
 **[Project 02 - Network Traffic Analysis Basics](./)**
-_(lab yg disediakan di "network traffic basics" course room)
+_(lab yg disediakan di "network traffic basics" course room)_
 1. malicious ps download
 cari log yg berisi download file ps, temukan flagnya
 2. dns infiltration
-cari log dns txt yg telah disusupi instruksi c2 berbahaya_
+cari log dns txt yg telah disusupi instruksi c2 berbahaya
 
 **[Project 03 - Introduction to SIEM](./)**
 _(lab: sample dashboard and events, the alert is triggered of the suspicious activity)_
