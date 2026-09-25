@@ -14,15 +14,15 @@ Investigation of security alerts involving users, emails, URLs, domains, and rel
 | Case 03 - Blacklisted External URL Blocked by Firewall |
 | Case 04 - Spoofed Domain Sending Suspicious URL        |
 
-**[Project 02 - Network Traffic Analysis Basics](./)**
+**[Project 02 - Network Traffic Analysis Basics](./Network_Traffic_Analysis_Basics/)**
 _(lab yg disediakan di "network traffic basics" course room)_
 1. malicious ps download
 cari log yg berisi download file ps, temukan flagnya
 2. dns infiltration
 cari log dns txt yg telah disusupi instruksi c2 berbahaya
 
-**[Project 03 - Introduction to SIEM](./)**
+**[Project 03 - Introduction to SIEM]**
 _(lab: sample dashboard and events, the alert is triggered of the suspicious activity)_
 
-**[Project 04 - Security Alert Response](./)**
+**[Project 04 - Security Alert Response]**
 (lab: A day in the life of a Junior Security Analyst)
