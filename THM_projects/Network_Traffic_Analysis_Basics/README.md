@@ -1,13 +1,13 @@
 ## Project 02 - Network Traffic Analysis Basics
 
 ### Objectives
-<u>Learning Objectives</u>
+**Learning Objectives**
 - Know what network traffic analysis is
 - Know what can be observed
 - Know how to observe network traffic
 - Know typical network traffic sources and flows
 
-<u>Practical Objectives</u>
+**Practical Objectives**
 - Determine appropriate network TAP placement for capturing Web and DNS traffic
 - Identify potentially malicious packets within Web and DNS traffic
 - Analyze suspicious Web and DNS packets to identify indicators
