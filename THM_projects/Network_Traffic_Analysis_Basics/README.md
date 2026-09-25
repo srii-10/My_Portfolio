@@ -32,7 +32,7 @@ This project uses the “Network Traffic Basics” lab provided by TryHackMe to 
 | **Network Environment Structure** | An overview of a network’s structure and provision of space for TAP.            |
 
 ### Scenarios
-| Scenario Name                       | Investigation Focus                                                                                |
-|-------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Scenario 01 - Malicious PS Download](./) | Investigating HTTP traffic associated with a phishing link and malicious PowerShell file download. |
-| [Scenario 02 - DNS Infiltration](./)      | Investigating suspicious DNS TXT records used to deliver malicious C2 instructions.                |
+| Scenario Name                                                                 | Investigation Focus    |
+|-------------------------------------------------------------------------------|------------------------|
+| [Scenario 01 - Malicious PS Download](./Scenario-01-Malicious-PS-Download.md) | Investigating HTTP traffic associated with a phishing link and malicious PowerShell file download. |
+| [Scenario 02 - DNS Infiltration](./Scenario-02-DNS-Infiltration.md)           | Investigating suspicious DNS TXT records used to deliver malicious C2 instructions. |
