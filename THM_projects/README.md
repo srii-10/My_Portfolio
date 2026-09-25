@@ -14,8 +14,8 @@ Investigation of security alerts involving users, emails, URLs, domains, and rel
 | Case 03 - Blacklisted External URL Blocked by Firewall |
 | Case 04 - Spoofed Domain Sending Suspicious URL        |
 
-**[Project 02 - Network Traffic Analysis Basics](./Network_Traffic_Analysis_Basics/)**
-...
+**[Project 02 - Network Traffic Analysis Basics](./Network_Traffic_Analysis_Basics/)** <br>
+Hands-on packet inspection focused on identifying suspicious Web and DNS traffic, identifying relevant indicators, and investigating malicious packets within captured network data.
 
 | Project 02 Scenario Names           |
 |-------------------------------------|
