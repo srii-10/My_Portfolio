@@ -2,9 +2,9 @@
 
 ### Objectives
 **Learning Objectives**
-- Monitor and analyze real-time alerts.
-- Identify and document critical events such as suspicious emails and attachments.
-- Create detailed case reports based on your observations to help your team understand the full scope of alerts and malicious activity.
+- Monitor and analyze real-time alerts
+- Identify and document critical events such as suspicious emails and attachments
+- Create detailed case reports based on your observations to help your team understand the full scope of alerts and malicious activity
 
 **Practical Objectives**
 - Analyze affected entities and attack indicators
