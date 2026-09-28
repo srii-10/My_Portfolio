@@ -7,8 +7,7 @@
 - IP User: `192.168.0.3`
 - IP Indicator: `203.0.113.200`
 - Suspicious Domain: `www.tryhackrne.thn`
-- Path File: `/downloads/install.ps1`
-- Application Version of Indicator: `HTTP/1.1` (older) <br>
+- Path File: `/downloads/install.ps1` <br>
 
 Below is a network topology diagram for a company, and the “Drop here” label is provided to indicate where to place the TAP according to the diagram so that Web traffic can be captured for investigation. <br>
 <img width="496" height="350" alt="Screenshot 2026-09-25 151155" src="https://github.com/user-attachments/assets/3b10b626-4873-4a23-9029-3730d1760952" />
@@ -23,18 +22,21 @@ At 29/09/2025, an HTTP request packet from IP address `192.168.0.3` was detected
 <img width="544" height="410" alt="Screenshot 2026-09-25 151429" src="https://github.com/user-attachments/assets/7d2686a1-7135-437d-b00c-4c2a96f69847" />
 
 **(HTTP response packet)** <br>
-After the HTTP request packet was analyzed, the web traffic was re-examined to find related packets. An HTTP response packet was found that contained relevant indicators, with an HTTP response status of 200 (OK) and using an older version of HTTP (1997) that is not recommended due to privacy concerns. <br>
+After the HTTP request packet was analyzed, the web traffic was re-examined to find related packets. An HTTP response packet was found that contained relevant indicators, with the HTTP response returned a `200 OK` status and used HTTP/1.1 over an unencrypted HTTP connection. This allows the transmitted content to be observed during network traffic inspection. <br>
 <img width="544" height="410" alt="Screenshot 2026-09-25 151547" src="https://github.com/user-attachments/assets/0c18b27b-db76-47c5-9a0f-17272cf28a17" />
 
+**(Indicator Identification)** <br>
 A PowerShell script indicator was also found in the Body Preview as the FLAG that had to be found in that packet as the answer to a question in that THM room. <br>
 <img width="546" height="202" alt="Screenshot 2026-09-25 151619" src="https://github.com/user-attachments/assets/485244ee-5051-44ab-b1eb-b4897eba6e6b" />
 
-### Final Assessment
-_(penjelasan final analysis scenario + packet + indikator + mitre attack if any)_
+### Investigation Findings
+The investigation identified suspicious HTTP traffic originating from workstation `192.168.0.3` following the user's interaction with the phishing link. The HTTP request targeted the suspicious domain `www.tryhackrne.thn` and requested the file `/downloads/install.ps1` from IP address `203.0.113.200`. <br>
 
-### Remediation Recommendation
-- Block the IP address
+The corresponding HTTP response contained a PowerShell script indicator in the response body, confirming that the traffic involved the download of a PowerShell script. The identified IP address, domain, requested file, and PowerShell content should be treated as relevant indicators for further investigation.
+
+### Remediation Recommendations
+- Block malicious IP/domain
 - Conduct an in-depth investigation to determine whether there are any other related activities
-- Isolate the host if it has been compromised
-- Remove other threats from the affected entities
+- Isolate the workstation if it has been compromised
+- Search for the identified indicators across other potentially affected hosts
 - Provide awareness training to users regarding suspicious domains and links
