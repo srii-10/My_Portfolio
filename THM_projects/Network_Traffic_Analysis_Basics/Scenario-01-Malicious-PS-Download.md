@@ -1,10 +1,10 @@
 ## Scenario 01 - Malicious PS Download
 
 ### Scenario Information
-<img width="562" height="118" alt="NTAB" src="https://github.com/user-attachments/assets/217d8e4f-29ce-4f03-a00e-37d3b97bf5da" />
+<img width="562" height="118" alt="NTAB" src="https://github.com/user-attachments/assets/217d8e4f-29ce-4f03-a00e-37d3b97bf5da" /> <br>
 **List of related entities:** .....
 
-Struktur jaringan yg tersedia _(perlu menempatkan TAP utk scenario ini)_
+Struktur jaringan yg tersedia _(perlu menempatkan TAP utk scenario ini)_ <br>
 <img width="496" height="350" alt="Screenshot 2026-09-25 151155" src="https://github.com/user-attachments/assets/3b10b626-4873-4a23-9029-3730d1760952" />
 
 ### (tanya gpt apa nama bagian ini)
