@@ -14,7 +14,8 @@ penjelasan kenapa TAP harus ditempatkan disana berdasarkan scenario ini <br>
 ### Investigation & Analysis
 jelasin kalo packet udh tersedia utk diinvestigasi setelah TAP ditempatkan dengan benar + nemu malicious packetnya
 
-jelasin analisis packetnya + ada indikator apa aja (ada 2 packet, 1 download 1 lagi response)
+jelasin analisis packetnya + ada indikator apa aja (ada 2 packet, 1 download 1 lagi response) <br>
+
 (packet 1 get) <br>
 <img width="544" height="410" alt="Screenshot 2026-09-25 151429" src="https://github.com/user-attachments/assets/7d2686a1-7135-437d-b00c-4c2a96f69847" /> <br>
 
