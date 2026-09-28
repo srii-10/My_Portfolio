@@ -14,7 +14,7 @@
 - Extract flags from the identified malicious packets
 
 ### Skills Demonstrated
-- Network Traffic Inspection
+- Network Traffic Investigation
 - Suspicious Packet Identification
 - Indicator Identification
 - Packet Content Analysis
