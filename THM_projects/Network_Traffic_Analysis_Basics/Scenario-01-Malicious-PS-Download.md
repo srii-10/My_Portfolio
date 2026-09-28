@@ -27,7 +27,7 @@ After the HTTP request packet was analyzed, the web traffic was re-examined to f
 
 **(Indicator Identification)** <br>
 A PowerShell script indicator was also found in the Body Preview as the FLAG that had to be found in that packet as the answer to a question in that THM room. <br>
-<img width="546" height="202" alt="Screenshot 2026-09-25 151619" src="https://github.com/user-attachments/assets/485244ee-5051-44ab-b1eb-b4897eba6e6b" />
+<img width="546" height="202" alt="Screenshot 2026-09-25 151619" src="https://github.com/user-attachments/assets/9badf40d-ef54-4025-9af2-585d2a4ea3fe" />
 
 ### Investigation Findings
 The investigation identified suspicious HTTP traffic originating from workstation `192.168.0.3` following the user's interaction with the phishing link. The HTTP request targeted the suspicious domain `www.tryhackrne.thn` and requested the file `/downloads/install.ps1` from IP address `203.0.113.200`. <br>
