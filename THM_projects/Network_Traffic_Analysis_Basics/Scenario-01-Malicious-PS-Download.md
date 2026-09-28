@@ -8,7 +8,7 @@
 - IP Indicator: `203.0.113.200`
 - Suspicious Domain: `www.tryhackrne.thn`
 - Path File: `/downloads/install.ps1`
-- Application Version of Indicator: HTTP/1.1 (older) <br>
+- Application Version of Indicator: `HTTP/1.1` (older) <br>
 
 Below is a network topology diagram for a company, and the “Drop here” label is provided to indicate where to place the TAP according to the diagram so that Web traffic can be captured for investigation. <br>
 <img width="496" height="350" alt="Screenshot 2026-09-25 151155" src="https://github.com/user-attachments/assets/3b10b626-4873-4a23-9029-3730d1760952" />
