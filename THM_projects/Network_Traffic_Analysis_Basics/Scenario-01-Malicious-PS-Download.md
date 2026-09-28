@@ -32,7 +32,7 @@ A PowerShell script indicator was also found in the Body Preview as the FLAG tha
 ### Investigation Findings
 The investigation identified suspicious HTTP traffic originating from workstation `192.168.0.3` following the user's interaction with the phishing link. The HTTP request targeted the suspicious domain `www.tryhackrne.thn` and requested the file `/downloads/install.ps1` from IP address `203.0.113.200`. <br>
 
-The corresponding HTTP response contained a PowerShell script indicator in the response body, confirming that the traffic involved the download of a PowerShell script. The identified IP address, domain, requested file, and PowerShell content should be treated as relevant indicators for further investigation.
+The associated HTTP response contained a PowerShell script indicator in the response body, confirming that the traffic involved the download of a PowerShell script. The identified IP address, domain, requested file, and PowerShell content should be treated as relevant indicators for further investigation.
 
 ### Remediation Recommendations
 - Block malicious IP/domain
