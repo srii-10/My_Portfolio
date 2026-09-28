@@ -14,7 +14,7 @@ Below is a network topology diagram for a company, and the “Drop here” label
 <img width="496" height="350" alt="Screenshot 2026-09-25 151155" src="https://github.com/user-attachments/assets/3b10b626-4873-4a23-9029-3730d1760952" />
 
 ### Investigation & Analysis
-**TAP Placement**
+**TAP Placement** <br>
 Based on this scenario, the TAP must be placed after WP1 (Web Proxy). Once the TAP has been properly deployed (as shown in the green notification block), it will capture all Web traffic entering and leaving the network. Specifically, it will identify HTTP method packets. <br>
 <img width="549" height="258" alt="Screenshot 2026-09-25 151213" src="https://github.com/user-attachments/assets/3e3ffa55-d85f-479d-bc55-d6a76583775d" />
 
