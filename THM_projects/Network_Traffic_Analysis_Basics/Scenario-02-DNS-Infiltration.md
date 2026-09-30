@@ -13,13 +13,13 @@ Below is a network topology diagram for a company, and the “Drop here” label
 
 ### Investigation & Analysis
 **1. TAP Placement** <br>
-Based on this scenario, most firewalls allow DNS (53) traffic to pass through without strict inspection. Therefore, a TAP must be placed after SW01 (Switch) on the path to the SRV-DNS (DNS Server) to capture all DNS traffic entering and leaving the network, including the contents of malicious packets. <br>
+Based on this scenario, the TAP must be placed after SW01 (Switch) on the path to SRV-DNS (DNS Server), to capture all DNS traffic between the internal network and the DNS server for investigation. This placement provides visibility into DNS queries and responses, including TXT records that may contain suspicious content. <br>
 <img width="546" height="386" alt="Screenshot 2026-09-25 151716" src="https://github.com/user-attachments/assets/bb9bdc9f-3cec-4dca-a22c-b23c7e8a2e99" />
 
 **2. DNS query packet** <br>
-At 29/09/2025, a DNS request packet was detected in DNS traffic containing a TXT record request from the IP address `192.168.0.2` to the domain `c2.tryhackrne.thn` using the `UDP` protocol. <br>
+At 29/09/2025, a DNS query packet was identified from `192.168.0.2` to `c2.tryhackrne.thn` over `UDP`, requesting a TXT record from the domain.
 
-In this scenario, malware that has infected the workstation by exploiting the DNS protocol is requesting a TXT record from that malicious domain. <br>
+In this scenario, the activity is consistent with a compromised workstation querying a suspicious domain for a TXT record, which may be used to retrieve instructions through DNS. <br>
 <img width="542" height="287" alt="Screenshot 2026-09-25 151941" src="https://github.com/user-attachments/assets/e2d6fd67-421a-4703-a9dd-305f8b4a6963" />
 
 **3. DNS response packet** <br>
