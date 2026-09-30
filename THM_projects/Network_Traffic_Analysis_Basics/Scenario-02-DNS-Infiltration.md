@@ -1,44 +1,40 @@
 ## Scenario 02 - DNS Infiltration
 
-**GANTI SEMUANYA, EX TITLE**
-
 ### Scenario Information
-<img width="562" height="118" alt="NTAB" src="https://github.com/user-attachments/assets/217d8e4f-29ce-4f03-a00e-37d3b97bf5da" /> <br>
+<img width="565" height="100" alt="Screenshot 2026-09-25 151642" src="https://github.com/user-attachments/assets/3a2dbcf3-7d47-4dd6-856b-71f97781bb97" /> <br>
 
 **List of related entities:** <br>
-- IP User: 
-- IP Indicator: 
-- Suspicious Domain: 
-- Path File:  <br>
+- Affected IP Addresses: `192.168.0.2`, `10.10.10.11`
+- Malicious Domain: `c2.tryhackrne.thn`
+- C2 Command: `THM{C2CommandFound}`<br>
 
-Below is a network topology diagram for a company, and the “Drop here” label is provided to indicate where to place the TAP according to the diagram so that Web traffic can be captured for investigation. <br>
+Below is a network topology diagram for a company, and the “Drop here” label is provided to indicate where to place the TAP according to the diagram so that DNS traffic can be captured for investigation. <br>
 <img width="496" height="350" alt="Screenshot 2026-09-25 151155" src="https://github.com/user-attachments/assets/3b10b626-4873-4a23-9029-3730d1760952" />
 
 ### Investigation & Analysis
-**(TAP Placement)** <br>
-Based on this scenario, the TAP must be placed after WP1 (Web Proxy). Once the TAP has been properly deployed (as shown in the green notification block), it will capture all Web traffic entering and leaving the network. Specifically, it will identify HTTP method packets. <br>
-<img width="549" height="258" alt="Screenshot 2026-09-25 151213" src="https://github.com/user-attachments/assets/3e3ffa55-d85f-479d-bc55-d6a76583775d" />
+**1. TAP Placement** <br>
+Based on this scenario, most firewalls allow DNS (53) traffic to pass through without strict inspection. Therefore, a TAP must be placed after SW01 (Switch) on the path to the SRV-DNS (DNS Server) to capture all DNS traffic entering and leaving the network, including the contents of malicious packets. <br>
+<img width="546" height="386" alt="Screenshot 2026-09-25 151716" src="https://github.com/user-attachments/assets/bb9bdc9f-3cec-4dca-a22c-b23c7e8a2e99" />
 
-**(HTTP request packet)** <br>
-At 29/09/2025, an HTTP request packet from IP address `192.168.0.3` was detected in Web traffic containing a download request (curl) for a suspicious file named `install.ps1`, directed at the suspicious host/domain `www.tryhackrne.thn` via `port 80`. That host/domain is associated with the unknown IP address `203.0.113.200`. <br>
-<img width="544" height="410" alt="Screenshot 2026-09-25 151429" src="https://github.com/user-attachments/assets/7d2686a1-7135-437d-b00c-4c2a96f69847" />
+**2. DNS query packet** <br>
+At 29/09/2025, a DNS request packet was detected in DNS traffic containing a TXT record request from the IP address `192.168.0.2` for the domain `c2.tryhackrne.thn` using the `UDP` protocol. <br>
 
-**(HTTP response packet)** <br>
-After the HTTP request packet was analyzed, the web traffic was re-examined to find related packets. An HTTP response packet was found that contained relevant indicators, with the HTTP response returned a `200 OK` status and used HTTP/1.1 over an unencrypted HTTP connection. This allows the transmitted content to be observed during network traffic inspection. <br>
-<img width="544" height="410" alt="Screenshot 2026-09-25 151547" src="https://github.com/user-attachments/assets/0c18b27b-db76-47c5-9a0f-17272cf28a17" />
+In this scenario, malware that has infected the workstation by exploiting the DNS protocol is requesting a TXT record from that malicious domain. <br>
+<img width="542" height="287" alt="Screenshot 2026-09-25 151941" src="https://github.com/user-attachments/assets/e2d6fd67-421a-4703-a9dd-305f8b4a6963" />
 
-**(Indicator Identification)** <br>
-A PowerShell script indicator was also found in the Body Preview as the FLAG that had to be found in that packet as the answer to a question in that THM room. <br>
-<img width="546" height="202" alt="Screenshot 2026-09-25 151619" src="https://github.com/user-attachments/assets/9badf40d-ef54-4025-9af2-585d2a4ea3fe" />
+**3. DNS response packet** <br>
+After the DNS request packet was analyzed, the DNS traffic was re-examined to identify related packets. A DNS response packet containing relevant indicators was found, the DNS response showed that the suspicious domain responded to the query with a “No error” status as if it were a legitimate request, and a malicious C2 command was found embedded in the TXT record (the answer FLAG from the question in the THM room). <br>
+<img width="539" height="333" alt="Screenshot 2026-09-25 151954" src="https://github.com/user-attachments/assets/009fab16-4609-4cc6-a3be-83ab3b52354a" />
 
 ### Investigation Findings
-The investigation identified suspicious HTTP traffic originating from workstation `192.168.0.3` following the user's interaction with the phishing link. The HTTP request targeted the suspicious domain `www.tryhackrne.thn` and requested the file `/downloads/install.ps1` from IP address `203.0.113.200`. <br>
+The investigation identified malicious DNS traffic originating from the workstation `192.168.0.2` after it was confirmed that the workstation had been compromised. The DNS query showed a request for a TXT record from domain c2.tryhackrne.thn. <br>
 
-The associated HTTP response contained a PowerShell script indicator in the response body, confirming that the traffic involved the download of a PowerShell script. The identified IP address, domain, requested file, and PowerShell content should be treated as relevant indicators for further investigation.
+The associated DNS response contained C2 command indicators, confirming that the traffic involved malicious C2 command requests to a suspicious domain. The identified IP address, unusual domain, and C2 commands should be treated as relevant indicators for further investigation and action.
 
 ### Remediation Recommendations
-- Block malicious IP/domain
-- Conduct an in-depth investigation to determine whether there are any other related activities
-- Isolate the workstation if it has been compromised
-- Search for the identified indicators across other potentially affected hosts
-- Provide awareness training to users regarding suspicious domains and links
+- Payload/command analysis
+- Block C2 domains
+- Isolate affected hosts and networks
+- Continued monitoring
+- In-depth investigation to identify other activities related to these indicators
+- Implement Deep Packet Inspection (DPI) on TXT responses exhibiting suspicious signs
