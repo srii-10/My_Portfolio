@@ -24,7 +24,7 @@ In this scenario, malware that has infected the workstation by exploiting the DN
 
 **3. DNS response packet** <br>
 After the DNS request packet was analyzed, the DNS traffic was re-examined to identify related packets. A DNS response packet containing relevant indicators was found, the DNS response showed that the suspicious domain responded to the query with a “No error” status as if it were a legitimate request, and a malicious C2 command `THM{C2CommandFound}` was found embedded in the TXT record (the answer FLAG from the question in the THM room). <br>
-<img width="539" height="333" alt="Screenshot 2026-09-25 151954" src="https://github.com/user-attachments/assets/009fab16-4609-4cc6-a3be-83ab3b52354a" />
+<img width="539" height="380" alt="Screenshot 2026-09-30 133606" src="https://github.com/user-attachments/assets/573ac204-28e2-4260-ab77-69aae8bf51ec" />
 
 ### Investigation Findings
 The investigation identified malicious DNS traffic originating from the workstation `192.168.0.2` after it was confirmed that the workstation had been compromised. The DNS query showed a request for a TXT record from domain c2.tryhackrne.thn. <br>
