@@ -17,15 +17,15 @@ Below is a network topology diagram for a company, and the “Drop here” label
 Based on this scenario, the TAP must be placed after WP1 (Web Proxy). Once the TAP has been properly deployed (as shown in the green notification block), it will capture all Web traffic entering and leaving the network. Specifically, it will identify HTTP method packets. <br>
 <img width="549" height="258" alt="Screenshot 2026-09-25 151213" src="https://github.com/user-attachments/assets/3e3ffa55-d85f-479d-bc55-d6a76583775d" />
 
-**(HTTP request packet)** <br>
+**2. HTTP request packet** <br>
 At 29/09/2025, an HTTP request packet from IP address `192.168.0.3` was detected in Web traffic containing a download request (curl) for a suspicious file named `install.ps1`, directed at the suspicious host/domain `www.tryhackrne.thn` via `port 80`. That host/domain is associated with the unknown IP address `203.0.113.200`. <br>
 <img width="544" height="410" alt="Screenshot 2026-09-25 151429" src="https://github.com/user-attachments/assets/7d2686a1-7135-437d-b00c-4c2a96f69847" />
 
-**(HTTP response packet)** <br>
+**3. HTTP response packet** <br>
 After the HTTP request packet was analyzed, the web traffic was re-examined to find related packets. An HTTP response packet was found that contained relevant indicators, with the HTTP response returned a `200 OK` status and used HTTP/1.1 over an unencrypted HTTP connection. This allows the transmitted content to be observed during network traffic inspection. <br>
 <img width="544" height="410" alt="Screenshot 2026-09-25 151547" src="https://github.com/user-attachments/assets/0c18b27b-db76-47c5-9a0f-17272cf28a17" />
 
-**(Indicator Identification)** <br>
+**4. Indicator Identification** <br>
 A PowerShell script indicator was also found in the Body Preview as the FLAG that had to be found in that packet as the answer to a question in that THM room. <br>
 <img width="546" height="202" alt="Screenshot 2026-09-25 151619" src="https://github.com/user-attachments/assets/9badf40d-ef54-4025-9af2-585d2a4ea3fe" />
 
