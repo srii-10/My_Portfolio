@@ -23,8 +23,9 @@ Hands-on packet inspection focused on identifying suspicious Web and DNS traffic
 | Scenario 02 - DNS Infiltration      |
 | Cross-Scenario Analysis             |
 
-**[Project 03 - Introduction to SIEM]**
-_(lab: sample dashboard and events, the alert is triggered of the suspicious activity)_
+**[Project 03 - Introduction to SIEM](./Introduction_to_SIEM/)** <br>
+(penjelasan singkat project)
+lab: sample dashboard and events, the alert is triggered of the suspicious activity
 
 **[Project 04 - Security Alert Response]**
 (lab: A day in the life of a Junior Security Analyst)
