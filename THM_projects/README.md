@@ -24,8 +24,8 @@ Hands-on packet inspection focused on identifying suspicious Web and DNS traffic
 | Cross-Scenario Analysis             |
 
 **[Project 03 - Introduction to SIEM](./Introduction_to_SIEM/)** <br>
-(penjelasan singkat project)
-lab: sample dashboard and events, the alert is triggered of the suspicious activity
+Focus on investigating suspicious activity that match the conditions of the configured rules.
+| (nama filenya) |
 
 **[Project 04 - Security Alert Response]**
 (lab: A day in the life of a Junior Security Analyst)
