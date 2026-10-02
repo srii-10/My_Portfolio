@@ -25,7 +25,7 @@ Hands-on packet inspection focused on identifying suspicious Web and DNS traffic
 
 **[Project 03 - Introduction to SIEM](./Introduction_to_SIEM/)** <br>
 Focus on investigating suspicious activity that match the conditions of the configured rules.
-| (nama filenya) |
+| SIEM Investigation Report |
 
 **[Project 04 - Security Alert Response]**
 (lab: A day in the life of a Junior Security Analyst)
