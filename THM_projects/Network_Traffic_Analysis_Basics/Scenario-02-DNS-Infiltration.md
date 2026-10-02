@@ -27,14 +27,14 @@ After the DNS request packet was analyzed, the DNS traffic was re-examined to id
 <img width="539" height="380" alt="Screenshot 2026-09-30 133606" src="https://github.com/user-attachments/assets/573ac204-28e2-4260-ab77-69aae8bf51ec" />
 
 ### Investigation Findings
-The investigation identified malicious DNS traffic originating from the workstation `192.168.0.2` after it was confirmed that the workstation had been compromised. The DNS query showed a request for a TXT record from domain c2.tryhackrne.thn. <br>
+The investigation identified malicious DNS traffic originating from the workstation `192.168.0.2` after it was confirmed that the workstation had been compromised. The DNS query showed a request for a TXT record from domain `c2.tryhackrne.thn`. <br>
 
 The DNS response traffic contains TXT record carrying C2 command, indicating that the DNS traffic is being used to send potentially malicious instructions to the affected workstation. The identified IP addresses, unusual domain, and C2 command should be considered relevant indicators for further investigation and action.
 
 ### Remediation Recommendations
+- Continued monitoring
 - Payload/command analysis
 - Block C2 domain
 - Isolate affected hosts and network
-- Continued monitoring
 - In-depth investigation to identify other activities related to these indicators
 - Implement Deep Packet Inspection (DPI) on TXT responses exhibiting suspicious signs
