@@ -12,6 +12,7 @@
 - Identify potentially malicious packets within Web and DNS traffic
 - Analyze suspicious Web and DNS packets to identify indicators
 - Extract flags from the identified malicious packets
+- Analyze the correlation of related indicators between the two scenarios
 
 ### Skills Demonstrated
 - Network Traffic Investigation
@@ -19,6 +20,7 @@
 - Indicator Identification
 - Packet Content Analysis
 - Evidence Analysis
+- Correlation of Different Events
 
 ### Environment & Tools
 This project uses the “Network Traffic Basics” lab provided by TryHackMe to analyze, investigate, and find flags in malicious traffic.
@@ -36,4 +38,4 @@ This project uses the “Network Traffic Basics” lab provided by TryHackMe to 
 |-------------------------------------------------------------------------------|------------------------|
 | [Scenario 01 - Malicious PS Download](./Scenario-01-Malicious-PS-Download.md) | Investigating HTTP traffic associated with a phishing link and malicious PowerShell file download. |
 | [Scenario 02 - DNS Infiltration](./Scenario-02-DNS-Infiltration.md)           | Investigating suspicious DNS TXT records used to deliver malicious C2 instructions. |
-| [Cross-Scenario Analysis](./Cross-Scenario-Analysis.md)                       | Correlation analysis between the two scenarios regarding the same MAC indicator for two different IPs |
+| [Cross-Scenario Analysis](./Cross-Scenario-Analysis.md)                       | Correlation analysis between Scenario 1 and Scenario 2 regarding the same MAC indicator for two different IPs. |
