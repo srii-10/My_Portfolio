@@ -23,7 +23,7 @@
 - Correlation of Different Events
 
 ### Environment & Tools
-This project uses the “Network Traffic Basics” lab provided by TryHackMe to analyze, investigate, and find flags in malicious traffic.
+This project uses the **"Network Traffic Basics"** lab provided by TryHackMe to analyze, investigate, and find flags in malicious traffic.
 
 | Tools / Components                | Purpose                                                                         |
 | ----------------------------------|---------------------------------------------------------------------------------|
