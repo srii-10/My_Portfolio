@@ -1,6 +1,8 @@
 ## SIEM Investigation Report
 
 ### Alert Information
+<img width="528" height="150" alt="3" src="https://github.com/user-attachments/assets/44251c7c-f0eb-40de-8224-27fad5aa7d8c" />  <br>
+
 - Alert: `Suspicious Process`
 - Affected Host: `HR_02`
 - Affected User: `Chris`
