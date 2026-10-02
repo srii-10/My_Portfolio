@@ -24,7 +24,7 @@
 - Security Documentation
 
 ### Environment & Tools
-This project uses the Cloud-Based SOC Simulator: **“Introduction to Phishing”** provided by TryHackMe to analyze, investigate, classify, and write security alert reports.
+This project uses the Cloud-Based SOC Simulator: **"Introduction to Phishing"** provided by TryHackMe to analyze, investigate, classify, and write security alert reports.
 
 | Tools / Components    | Purpose                                                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------|
