@@ -36,3 +36,4 @@ This project uses the “Network Traffic Basics” lab provided by TryHackMe to 
 |-------------------------------------------------------------------------------|------------------------|
 | [Scenario 01 - Malicious PS Download](./Scenario-01-Malicious-PS-Download.md) | Investigating HTTP traffic associated with a phishing link and malicious PowerShell file download. |
 | [Scenario 02 - DNS Infiltration](./Scenario-02-DNS-Infiltration.md)           | Investigating suspicious DNS TXT records used to deliver malicious C2 instructions. |
+| [Cross-Scenario Analysis](./Cross-Scenario-Analysis.md)                       | Correlation analysis between the two scenarios regarding the same MAC indicator for two different IPs |
