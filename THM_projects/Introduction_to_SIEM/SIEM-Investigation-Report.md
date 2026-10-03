@@ -31,5 +31,5 @@ The investigation confirmed that the process alert was a **True Positive (TP)**.
 The alert was supported by event correlated with the process name and detection rules that identified the suspicious activity. In response, **Isolate the Host** was selected to quarantine the affected endpoint and limit potential further activity. <br>
 <img width="530" height="203" alt="6" src="https://github.com/user-attachments/assets/a5cc2e5e-2ac7-481e-908d-33b7fd02594b" />
 
-The investigation was successfully completed after the alert was classified and the appropriate response action was selected. This is evidenced by the appearance of a FLAG at the end of the investigation (the response from the THM room). <br>
+The investigation was successfully completed after the alert was classified and the appropriate response action was selected. This is evidenced by the appearance of a FLAG at the end of the investigation (the answer to that THM question). <br>
 <img width="361" height="101" alt="7" src="https://github.com/user-attachments/assets/05188c12-3920-4929-a2a9-a768b5ccd8e2" />
