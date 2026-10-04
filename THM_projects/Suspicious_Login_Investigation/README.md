@@ -8,7 +8,10 @@
 - Blocking IP address on the Firewall
 
 ### Skills Demonstrated
-
+- Alert Investigation
+- Threat Intelligence
+- Incident Escalation
+- Basic Containment
 
 ### Environment & Tools
 This project uses the **"Junior Security Analyst Intro"** lab provided by TryHackMe to investigate critical alerts.
