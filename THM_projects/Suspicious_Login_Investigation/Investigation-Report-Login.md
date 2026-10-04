@@ -17,6 +17,12 @@
 | **Classification** | True Positive (TP)                       |
 | **Escalation**     | Further analysis and action are required |
 
+| **Project Name** | Suspicious Login Investigation |
+|---|---|
+| **Platform** | TryHackMe |
+| **Focus** | SIEM Alert Investigation |
+| **Incident** | Suspicious Login |
+
 ### Final Assessment
 
 
