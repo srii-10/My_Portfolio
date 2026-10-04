@@ -35,6 +35,8 @@ Following the investigation and escalation process, the malicious IP address `22
 <img width="771" height="205" alt="6" src="https://github.com/user-attachments/assets/89224308-9f13-4134-8689-fd4d94d467bb" />
 
 ### Final Assessment
-Based on the investigation and analysis of the available evidence, the event indicates a potential successful brute-force attack, as multiple failed login attempts from a known malicious IP were followed by a successful login from the same IP within a short time window. This behavior suggests a potential account compromise.
+Based on the investigation and analysis of the available evidence, the event indicates a potential successful brute-force attack, as multiple failed login attempts from a known malicious IP were followed by a successful login from the same IP within a short time window.
 
-The IP address has been blocked, further action and analysis are needed to determine whether any related activity occurred after the account was compromised.
+This activity suggests a potential account compromise and requires further investigation to determine whether the successful login resulted in any unauthorized activity or additional compromise.
+
+As an initial containment measure, the malicious IP address was blocked on the firewall.
