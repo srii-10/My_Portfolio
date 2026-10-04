@@ -16,7 +16,7 @@
 - Provide appropriate recommendations for remediation
 
 ### Skills Demonstrated
-- Alert Investigation
+- SIEM Alert Investigation
 - Alert Classification
 - IOC Identification
 - Analysis of evidence such as IP Addresses, Email, URLs, Threats, and Logs
