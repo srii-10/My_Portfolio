@@ -17,7 +17,10 @@
 - Determine the classification and action for those rules
 
 ### Skills Demonstrated
-- 
+- SIEM Alert Investigation
+- Security Log Analysis
+- Detection Rule Analysis
+- Alert Classification (TP/FP)
 
 ### Environment & Tools
 This project uses the **"Introduction to SIEM"** practice environment provided by TryHackMe to monitor, investigate, analyze rules, and determine the appropriate action to take in response to a suspicious event.
