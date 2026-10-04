@@ -1,10 +1,6 @@
 ## Project 04 - Suspicious Login Investigation
 
 ### Objectives
-**Learning Objectives**
-
-
-**Practical Objectives**
 
 
 ### Skills Demonstrated
