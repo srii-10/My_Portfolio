@@ -11,10 +11,10 @@
 ### Investigation & Analysis
 At 25/09/2026 13:23, an alert appeared indicating unauthorized login attempts from IP address `221.181.185.159` via port `22 (SSH)`. Four minutes later, at 25/09/2026 13:27, a successful login was detected from the same suspicious IP address via the SSH port.
 
-An investigation of the suspicious IP address was then conducted using the provided IP Hunter tool.
-<img width="466" height="265" alt="2" src="https://github.com/user-attachments/assets/d46b40ba-ab19-45c2-9c36-a8a15ead5ff4" />
+An investigation of the suspicious IP address was then conducted using the provided IP Hunter tool. <br>
+<img width="466" height="265" alt="2" src="https://github.com/user-attachments/assets/d46b40ba-ab19-45c2-9c36-a8a15ead5ff4" /> <br>
 
-It has been confirmed that this IP address is malicious and is listed in the company’s database. Below is information regarding this malicious IP address.
+It has been confirmed that this IP address is malicious and is listed in the company’s database. Below is information regarding this malicious IP address. <br>
 <img width="518" height="251" alt="3" src="https://github.com/user-attachments/assets/14ee180c-e58c-4a41-944f-2f6e5a7494d7" />
 
 ### Severity & Escalation
