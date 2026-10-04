@@ -5,16 +5,16 @@
 
 **List of entities involved:**
 - Suspicious IP: `221.181.185.159`
-- Port: `22` (SSH)
-- Timestamp: 25/09/2026 13:23 & 25/09/2026 13:27
+- Port: `22 (SSH)`
+- Timestamp: `25/09/2026 13:23` & `25/09/2026 13:27`
 
 ### Investigation & Analysis
 
 
 ### Severity & Escalation
-| Severity     | Escalation                               |
-|--------------|------------------------------------------|
-| Critical     | Further analysis and action are required |
+| **Severity**       | Critical                                 |
+| **Classification** | True Positive (TP)                       |
+| **Escalation**     | Further analysis and action are required |
 
 ### Final Assessment
 
