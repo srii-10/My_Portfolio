@@ -6,7 +6,6 @@ A collection of hands-on cybersecurity projects completed through TryHackMe, foc
 
 **[Project 01 - Alert Investigation](./Alert_Investigation/)** <br>
 Investigation of security alerts involving users, emails, URLs, domains, and related activities.
-
 | Project 01 Case Names                                  |
 |--------------------------------------------------------|
 | Case 01 - Legitimate Employee Onboarding Email         |
@@ -16,7 +15,6 @@ Investigation of security alerts involving users, emails, URLs, domains, and rel
 
 **[Project 02 - Network Traffic Analysis Basics](./Network_Traffic_Analysis_Basics/)** <br>
 Hands-on packet inspection focused on identifying suspicious Web and DNS traffic, identifying relevant indicators, and investigating malicious packets within captured network data.
-
 | Project 02 Scenario Names           |
 |-------------------------------------|
 | Scenario 01 - Malicious PS Download |
@@ -29,7 +27,9 @@ Focus on investigating suspicious process that match the conditions of the confi
 |---------------------------|
 | SIEM Investigation Report |
 
-**[Project 04 - Security Alert Response]**
-(lab: A day in the life of a Junior Security Analyst)
-| Project 04 ... |
-|----------------|
+**[Project 04 - Suspicious Login Investigation]**
+Investigation of unauthorized login attempts followed by a successful login from a suspicious IP, including threat validation, escalation, and containment.
+lab: A day in the life of a Junior Security Analyst
+| Project 04 Report Name     |
+|----------------------------|
+| Investigation Report Login |
