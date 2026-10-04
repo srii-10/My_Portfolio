@@ -12,16 +12,9 @@
 
 
 ### Severity & Escalation
-| **Severity**       | Critical                                 |
-|---|---|
-| **Classification** | True Positive (TP)                       |
-| **Escalation**     | Further analysis and action are required |
-
-| **Project Name** | Suspicious Login Investigation |
-|---|---|
-| **Platform** | TryHackMe |
-| **Focus** | SIEM Alert Investigation |
-| **Incident** | Suspicious Login |
+| **Severity** | Classification     | Escalation                               |
+|--------------|--------------------|------------------------------------------|
+| Critical     | True Positive (TP) | Further analysis and action are required |
 
 ### Final Assessment
 
