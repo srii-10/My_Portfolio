@@ -12,8 +12,8 @@
 
 
 ### Severity & Escalation
-| Severity           | Critical                                 |
-|--------------------|------------------------------------------|
+| **Severity**       | Critical                                 |
+|---|---|
 | **Classification** | True Positive (TP)                       |
 | **Escalation**     | Further analysis and action are required |
 
