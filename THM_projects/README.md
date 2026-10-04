@@ -28,7 +28,7 @@ Focus on investigating suspicious process that match the conditions of the confi
 | SIEM Investigation Report |
 
 **[Project 04 - Suspicious Login Investigation](./Suspicious_Login_Investigation/)** <br>
-Investigation of unauthorized login attempts followed by a successful login from a suspicious IP address
+Investigation of unauthorized login attempts followed by a successful login from a suspicious IP address.
 | Project 04 Report Name     |
 |----------------------------|
 | Investigation Report Login |
