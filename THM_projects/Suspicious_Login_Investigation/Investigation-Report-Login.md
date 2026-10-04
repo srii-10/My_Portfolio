@@ -14,7 +14,7 @@ At 25/09/2026 13:23, an alert appeared indicating unauthorized login attempts fr
 Four minutes later, at 25/09/2026 13:27, a successful login was detected from the same suspicious IP address through SSH. The correlation between the failed login attempts and the subsequent successful login from the same source IP indicates suspicious authentication activity and raises the possibility of a successful brute-force attack.
 
 An investigation of the suspicious IP address was then conducted using the provided IP Hunter tool. <br>
-<img width="466" height="265" alt="2" src="https://github.com/user-attachments/assets/d46b40ba-ab19-45c2-9c36-a8a15ead5ff4" /> <br>
+<img width="466" height="249" alt="2" src="https://github.com/user-attachments/assets/c1806e98-3026-4f7f-813b-5051ac8c6cda" />
 
 The investigation confirmed that this IP address was identified as a malicious IP address and was listed in the company's database. Below is information regarding this malicious IP address. <br>
 <img width="518" height="251" alt="3" src="https://github.com/user-attachments/assets/14ee180c-e58c-4a41-944f-2f6e5a7494d7" />
