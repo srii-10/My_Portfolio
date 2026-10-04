@@ -24,10 +24,12 @@ Hands-on packet inspection focused on identifying suspicious Web and DNS traffic
 | Cross-Scenario Analysis             |
 
 **[Project 03 - Introduction to SIEM](./Introduction_to_SIEM/)** <br>
-Focus on investigating suspicious activity that match the conditions of the configured rules.
+Focus on investigating suspicious process that match the conditions of the configured rules.
 | Project 03 Report Name    |
 |---------------------------|
 | SIEM Investigation Report |
 
 **[Project 04 - Security Alert Response]**
 (lab: A day in the life of a Junior Security Analyst)
+| Project 04 ... |
+|----------------|
