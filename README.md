@@ -8,7 +8,7 @@ This portfolio documents my cybersecurity learning journey through practical pro
 Each project contains investigation cases and documentation of the analysis process, findings, and recommended actions.
 
 ## Skills
-### 🔐 Technical Skills
+### Technical Skills
 - Security Investigation
 - Threat Analysis
 - Log Analysis
@@ -19,7 +19,7 @@ Each project contains investigation cases and documentation of the analysis proc
 - Linux Log Analysis
 - Security Documentation
 
-### 🧠 Soft Skills
+### Soft Skills
 - Analytical Thinking
 - Problem Solving
 - Attention to Detail
