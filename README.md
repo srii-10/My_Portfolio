@@ -32,5 +32,5 @@ Each project contains investigation cases and documentation of the analysis proc
 | **[THM Projects](./THM_projects)**              | Project 01 - Alert Investigation<br>Project 02 - Network Traffic Analysis Basics<br>Project 03 - Introduction to SIEM<br>Project 04 - Suspicious Login Investigation |
 
 ## Contact
-<a href="https://linkedin.com/in/sri-septina-marpaung"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/sri-septina/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://tryhackme.com/p/Moon4rm0r"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
