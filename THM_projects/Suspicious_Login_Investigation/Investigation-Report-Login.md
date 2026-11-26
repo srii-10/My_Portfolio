@@ -29,8 +29,7 @@ The alert was classified **True Positive (TP)** based on the malicious IP reputa
 The incident was escalated to the right person according to the SOC escalation procedure.
 
 ### Containment
-Following the investigation and escalation process, the malicious IP address `221.181.185.159` was blocked on the firewall as an initial containment action, in accordance with authorization from the SOC Team Lead. <br>
-<img width="779" height="395" alt="5" src="https://github.com/user-attachments/assets/5c4e009f-5268-426a-bbb5-c52510457422" />
+Following the investigation and escalation process, the malicious IP address `221.181.185.159` was blocked on the firewall to stop the attack as an initial mitigation measure, in accordance with authorization from the relevant authorities. <br>
 <img width="771" height="205" alt="6" src="https://github.com/user-attachments/assets/89224308-9f13-4134-8689-fd4d94d467bb" />
 
 ### Final Assessment
