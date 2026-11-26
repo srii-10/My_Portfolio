@@ -1,0 +1,40 @@
+## Investigation Report Login
+
+### Alert Information
+<img width="903" height="185" alt="1" src="https://github.com/user-attachments/assets/461769ac-de76-4e0c-bbb5-52236eda96cb" />
+
+**List of entities involved:**
+- Suspicious IP: `221.181.185.159`
+- Port: `22 (SSH)`
+- Timestamp: `25/09/2026 13:23` & `25/09/2026 13:27`
+
+### Investigation & Analysis
+At 25/09/2026 13:23, an alert appeared indicating unauthorized login attempts from IP address `221.181.185.159` via port `22 (SSH)`.
+
+Four minutes later, at 25/09/2026 13:27, a successful login was detected from the same suspicious IP address through SSH. The correlation between the failed login attempts and the subsequent successful login from the same source IP indicates suspicious authentication activity and raises the possibility of a successful brute-force attack.
+
+An investigation of the suspicious IP address was then conducted using the provided IP Hunter tool. <br>
+<img width="466" height="249" alt="2" src="https://github.com/user-attachments/assets/c1806e98-3026-4f7f-813b-5051ac8c6cda" />
+
+The investigation confirmed that this IP address was identified as a malicious IP address and was listed in the company's database. Below is information regarding this malicious IP address. <br>
+<img width="518" height="251" alt="3" src="https://github.com/user-attachments/assets/14ee180c-e58c-4a41-944f-2f6e5a7494d7" />
+
+### Severity & Escalation
+| **Severity** | Classification     | Escalation                               |
+|--------------|--------------------|------------------------------------------|
+| Critical     | True Positive (TP) | Further analysis and action are required |
+
+The alert was classified **True Positive (TP)** based on the malicious IP reputation and the successful login following multiple unauthorized attempts.
+
+The incident was escalated to the right person according to the SOC escalation procedure.
+
+### Containment
+Following the investigation and escalation process, the malicious IP address `221.181.185.159` was blocked on the firewall to stop the attack as an initial mitigation measure, in accordance with authorization from the relevant authorities. <br>
+<img width="771" height="205" alt="6" src="https://github.com/user-attachments/assets/89224308-9f13-4134-8689-fd4d94d467bb" />
+
+### Final Assessment
+Based on the investigation and analysis of the available evidence, the event indicates a potential successful brute-force attack, as multiple failed login attempts from a known malicious IP were followed by a successful login from the same IP within a short time window.
+
+This activity suggests a potential account compromise and requires further investigation to determine whether the successful login resulted in any unauthorized activity or additional compromise.
+
+As an initial containment measure, the malicious IP address was blocked on the firewall.

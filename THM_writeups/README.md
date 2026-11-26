@@ -1,12 +1,34 @@
 ## TryHackMe Projects
 
-Hands-on cybersecurity projects completed through TryHackMe labs & challenges, with a focus on security investigation, analysis, and practical problem-solving.
+A collection of hands-on cybersecurity projects completed through TryHackMe, focusing on practical investigation, analysis, and security problem-solving.
 
 ### Projects
 
-#### Project 01 - Alert Investigation
-**Cases:**
-- Case 01 - Legitimate Employee Onboarding Email
-- Case 02 - URL Shortening Sent by a Suspicious Sender
-- Case 03 - Blacklisted External URL Blocked by Firewall
-- Case 04 - Spoofed Domain Sending Suspicious URL
+**[Project 01 - Alert Investigation](./Alert_Investigation/)** <br>
+Investigation of security alerts involving users, emails, URLs, domains, and related activities.
+| Project 01 Case Names                                  |
+|--------------------------------------------------------|
+| Case 01 - Legitimate Employee Onboarding Email         |
+| Case 02 - URL Shortening Sent by a Suspicious Sender   |
+| Case 03 - Blacklisted External URL Blocked by Firewall |
+| Case 04 - Spoofed Domain Sending Suspicious URL        |
+
+**[Project 02 - Network Traffic Analysis Basics](./Network_Traffic_Analysis_Basics/)** <br>
+Hands-on packet inspection focused on identifying suspicious Web and DNS traffic, identifying relevant indicators, and investigating malicious packets within captured network data.
+| Project 02 Scenario Names           |
+|-------------------------------------|
+| Scenario 01 - Malicious PS Download |
+| Scenario 02 - DNS Infiltration      |
+| Cross-Scenario Analysis             |
+
+**[Project 03 - Introduction to SIEM](./Introduction_to_SIEM/)** <br>
+Focus on investigating suspicious process that match the conditions of the configured rules.
+| Project 03 Report Name    |
+|---------------------------|
+| SIEM Investigation Report |
+
+**[Project 04 - Suspicious Login Investigation](./Suspicious_Login_Investigation/)** <br>
+Investigation of unauthorized login attempts followed by a successful login from a suspicious IP address.
+| Project 04 Report Name     |
+|----------------------------|
+| Investigation Report Login |
