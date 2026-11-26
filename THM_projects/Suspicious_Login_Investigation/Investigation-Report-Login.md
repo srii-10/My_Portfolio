@@ -26,8 +26,7 @@ The investigation confirmed that this IP address was identified as a malicious I
 
 The alert was classified **True Positive (TP)** based on the malicious IP reputation and the successful login following multiple unauthorized attempts.
 
-The incident was escalated to the right person according to the SOC escalation procedure. <br>
-<img width="613" height="381" alt="4" src="https://github.com/user-attachments/assets/ab789c2f-9489-483b-bfe6-79cc532e3e04" />
+The incident was escalated to the right person according to the SOC escalation procedure.
 
 ### Containment
 Following the investigation and escalation process, the malicious IP address `221.181.185.159` was blocked on the firewall as an initial containment action, in accordance with authorization from the SOC Team Lead. <br>
