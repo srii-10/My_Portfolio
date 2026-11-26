@@ -1,4 +1,4 @@
-## TryHackMe Projects
+## TryHackMe Write-ups
 
 A collection of hands-on cybersecurity projects completed through TryHackMe, focusing on practical investigation, analysis, and security problem-solving.
 
